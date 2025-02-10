@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     const checkBirthdayDate = () => {
-      const targetDate = new Date('2025-02-02T00:00:00');
+      const targetDate = new Date('2025-02-11T00:00:00');
       const now = new Date();
       if (now >= targetDate) {
         setIsExpired(true);
